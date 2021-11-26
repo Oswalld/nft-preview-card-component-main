@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
+
 }
 
 .nft-hover{
@@ -75,12 +75,13 @@ body{
 
 
 
-.nft-text h1{
+.nft-text a{
+    text-decoration: none;
     color: var(--White);
     font-size: 1.3rem;
     font-weight: 600;
 }
-.nft-text h1:hover{
+.nft-text a:hover{
     color: var(--Cyan);
     cursor: pointer;
 }
